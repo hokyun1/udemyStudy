@@ -4,9 +4,8 @@ metadata:
   name: fleetman-webapp
 
 spec:
-  # This defines which pods are going to be represented by this Service
-  # The service becomes a network endpoint for either other services
-  # or maybe external users to connect to (eg browser)
+  # selector : 어떤 pod에 서비스를 사용할 지 선택.
+  # Pod의 labels를 통해 접근
   selector:
     app: webapp
     release: "0-5"

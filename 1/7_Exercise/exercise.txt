@@ -1,0 +1,6 @@
+ActiveMQ를 포드 및 서비스로 배포하기
+
+사용할 이미지 : rechardchesterwood/k8s-fleetman-queue:release1
+port : 8161 > 8161에 큐의 관리 콘솔이 공개됨
+사용자 이름 / 비밀번호 : admin / admin
+NodePort : 30010
